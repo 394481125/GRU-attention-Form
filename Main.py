@@ -23,17 +23,17 @@ def get_args_parser():
     parser.add_argument('--train_video_list', default='list/hmdb_split1_train.txt',
                         type=str)  # ucf_trans_split1_train.txt
     parser.add_argument('--test_video_list', default='list/hmdb_split1_test.txt', type=str)
-    parser.add_argument('--root', default='./', type=str)
+    parser.add_argument('--root', default='/content/GRU-attention-Form/', type=str)
     parser.add_argument('--dataset', default='hmdb', type=str)
     parser.add_argument('--target_dataset', default='hmdb', type=str)
-    parser.add_argument('--model_dir', default='model', type=str)
+    parser.add_argument('--model_dir', default='/content/drive/MyDrive/GRU-attention-Form/model/', type=str)
     parser.add_argument('--get_scores', default=False, type=bool)
     parser.add_argument('--description', type=str)
     parser.add_argument('--pretrained', default=False, type=bool)
     parser.add_argument('--cross', default='True', type=str)
 
     # ============================ Learning Configs =============test_loader===============
-    parser.add_argument('--batch_size', default=1, type=int)
+    parser.add_argument('--batch_size', default=32, type=int)
     parser.add_argument('--workers', default=5, type=int)
     parser.add_argument('--learning_rate', default=0.001, type=float)
     parser.add_argument('--weight_decay', default=1e-5, type=str)

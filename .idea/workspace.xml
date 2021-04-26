@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="815ba4d6-37c9-4fa1-b8e6-5716eebac973" name="Default Changelist" comment="" />
+    <list default="true" id="815ba4d6-37c9-4fa1-b8e6-5716eebac973" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +33,20 @@
     <SUITE FILE_PATH="coverage/attention_network_master$video_utils__1_.coverage" NAME="video_utils (1) Coverage Results" MODIFIED="1618839231167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HMDB" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="39" column="55" lean-forward="true" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -76,6 +92,9 @@
       <replace>/</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -100,19 +119,19 @@
         <option value="$PROJECT_DIR$/utils/ucf101_split1_train.txt" />
         <option value="$PROJECT_DIR$/utils/ucf101_split1_test.txt" />
         <option value="$PROJECT_DIR$/Dataset.py" />
-        <option value="$PROJECT_DIR$/Main.py" />
         <option value="$PROJECT_DIR$/sru.py" />
         <option value="$PROJECT_DIR$/demo.py" />
         <option value="$PROJECT_DIR$/Attention.py" />
         <option value="$PROJECT_DIR$/list/hmdb_split1_train.txt" />
         <option value="$PROJECT_DIR$/list/hmdb_split1_test.txt" />
         <option value="$PROJECT_DIR$/Models.py" />
+        <option value="$PROJECT_DIR$/Main.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="354" />
-    <option name="y" value="54" />
+    <option name="x" value="363" />
+    <option name="y" value="139" />
     <option name="width" value="1437" />
     <option name="height" value="979" />
   </component>
@@ -121,23 +140,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="attention-network-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="attention-network-master" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="attention-network-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="attention-network-master" type="462c0819:PsiDirectoryNode" />
-              <item name="list" type="462c0819:PsiDirectoryNode" />
+              <item name="GRU-attention-Form" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GRU-attention-Form" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -312,6 +326,7 @@
       <workItem from="1619355630191" duration="3209000" />
       <workItem from="1619363904698" duration="2531000" />
       <workItem from="1619403625954" duration="16752000" />
+      <workItem from="1619443508953" duration="277000" />
     </task>
     <servers />
   </component>
@@ -348,12 +363,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77079000" />
+    <option name="totallyTimeSpent" value="77356000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="354" y="54" width="1437" height="979" extended-state="0" />
+    <frame x="363" y="139" width="1437" height="979" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2883079" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2926652" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -367,7 +383,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3605201" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.36094674" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="ExcelReader" order="13" weight="0.32900944" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -421,9 +437,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HMDB/brush_hair/April_09_brush_hair_u_nm_np1_ba_goo_0/1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/HMDB/brush_hair/April_09_brush_hair_u_nm_np1_ba_goo_0/1.jpg" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/nose/case.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
@@ -464,123 +478,26 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/desktop.ini" />
-    <entry file="file://$PROJECT_DIR$/../YOLO-Environment/Lib/site-packages/torch/nn/modules/linear.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YOLO-Environment/Lib/site-packages/torch/serialization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="493" column="4" selection-start-line="493" selection-start-column="4" selection-end-line="493" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../YOLO-Environment/Lib/site-packages/torch/nn/modules/linear.py" />
+    <entry file="file://$PROJECT_DIR$/../YOLO-Environment/Lib/site-packages/torch/serialization.py" />
     <entry file="file://$PROJECT_DIR$/utils/video_process.py" />
-    <entry file="file://$PROJECT_DIR$/utils/video_process_old.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/video_process_old.py" />
     <entry file="file://$PROJECT_DIR$/utils/data_process_HMDB.py" />
     <entry file="file://$PROJECT_DIR$/utils/label_utils.py" />
-    <entry file="file://$PROJECT_DIR$/list/hmdb_split1_val.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="73" lean-forward="true" selection-start-line="19" selection-start-column="73" selection-end-line="19" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/hmdb_split1_train.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90093" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/list/hmdb_split1_val.txt" />
+    <entry file="file://$PROJECT_DIR$/utils/hmdb_split1_train.txt" />
     <entry file="file://$PROJECT_DIR$/utils/data_process_HMDB_label_write.py" />
     <entry file="file://$PROJECT_DIR$/utils/data_process_HMDB_video_split.py" />
-    <entry file="file://$PROJECT_DIR$/utils/data_process_UCF101_video_split.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <element signature="e#395#668#0" />
-            <element signature="e#745#1941#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Deep_Learning_Data_Process/Deep_Learning_Data_Process/HMDB51/data_process_HMDB_video_split.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/ucf101_split1_test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1595" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/ucf101_split1_train.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/data_process_UCF101_label_write.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <element signature="e#295#474#0" />
-            <element signature="e#527#982#0" />
-            <element signature="e#1027#1265#0" />
-            <element signature="e#1298#1467#0" />
-            <element signature="e#1583#2900#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/hmdb_split1_test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="20" column="59" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/video_tool.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/video_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="20" column="50" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <element signature="e#125#398#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main_old.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4332">
-          <caret line="31" column="50" lean-forward="true" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/data_process_UCF101_video_split.py" />
+    <entry file="file://$PROJECT_DIR$/../Deep_Learning_Data_Process/Deep_Learning_Data_Process/HMDB51/data_process_HMDB_video_split.py" />
+    <entry file="file://$PROJECT_DIR$/utils/ucf101_split1_test.txt" />
+    <entry file="file://$PROJECT_DIR$/utils/ucf101_split1_train.txt" />
+    <entry file="file://$PROJECT_DIR$/utils/data_process_UCF101_label_write.py" />
+    <entry file="file://$PROJECT_DIR$/utils/hmdb_split1_test.txt" />
+    <entry file="file://$PROJECT_DIR$/utils/video_tool.py" />
+    <entry file="file://$PROJECT_DIR$/utils/video_utils.py" />
+    <entry file="file://$PROJECT_DIR$/Test.py" />
+    <entry file="file://$PROJECT_DIR$/Main_old.py" />
     <entry file="file://$PROJECT_DIR$/Dataset.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -598,22 +515,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../YOLO-Environment/Lib/site-packages/torch/nn/modules/module.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="888" selection-start-line="888" selection-end-line="888" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YOLO-Environment/Lib/site-packages/torchvision/models/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../YOLO-Environment/Lib/site-packages/torch/nn/modules/module.py" />
+    <entry file="file://$PROJECT_DIR$/../YOLO-Environment/Lib/site-packages/torchvision/models/__init__.py" />
     <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-1883897891/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -621,23 +524,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../YOLO-Environment/Lib/site-packages/torch/nn/modules/rnn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="588" column="8" selection-start-line="588" selection-start-column="8" selection-end-line="588" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sru.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../YOLO-Environment/Lib/site-packages/torch/nn/modules/rnn.py" />
+    <entry file="file://$PROJECT_DIR$/sru.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/subprocess.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -645,30 +533,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../YOLO-Environment/Lib/site-packages/torch/utils/cpp_extension.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="1832" selection-start-line="1832" selection-end-line="1832" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../YOLO-Environment/Lib/site-packages/torch/nn/modules/container.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../YOLO-Environment/Lib/site-packages/torch/utils/cpp_extension.py" />
+    <entry file="file://$PROJECT_DIR$/demo.py" />
+    <entry file="file://$PROJECT_DIR$/../YOLO-Environment/Lib/site-packages/torch/nn/modules/container.py" />
     <entry file="file://$PROJECT_DIR$/list/hmdb_split1_test.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="379">
@@ -683,13 +550,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../YOLO-Environment/Lib/site-packages/torch/nn/modules/conv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="373" column="19" selection-start-line="373" selection-start-column="8" selection-end-line="373" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../YOLO-Environment/Lib/site-packages/torch/nn/modules/conv.py" />
     <entry file="file://$PROJECT_DIR$/Models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="826">
@@ -704,16 +565,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="217" column="47" selection-start-line="217" selection-start-column="47" selection-end-line="217" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Attention.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
@@ -723,6 +574,16 @@
             <element signature="e#144#574#0" />
             <element signature="e#614#1387#0" />
             <element signature="e#1429#2462#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="39" column="55" lean-forward="true" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
