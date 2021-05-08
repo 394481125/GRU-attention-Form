@@ -16,6 +16,7 @@ import math
 import torch.nn.functional as F
 import argparse
 
+# 时空连续性
 
 def get_args_parser():
     parser = argparse.ArgumentParser('Global and Local Knowledge-Aware Attention Network for Action Recognition')
@@ -35,9 +36,9 @@ def get_args_parser():
     # ============================ Learning Configs =============test_loader===============
     parser.add_argument('--batch_size', default=32, type=int)
     parser.add_argument('--workers', default=5, type=int)
-    parser.add_argument('--learning_rate', default=0.001, type=float)
+    parser.add_argument('--learning_rate', default=0.1, type=float)
     parser.add_argument('--weight_decay', default=1e-5, type=str)
-    parser.add_argument('--epoch', default=1, type=int)
+    parser.add_argument('--epoch', default=10, type=int)
     parser.add_argument('--lr_step', default=[30, 40], type=list)
     parser.add_argument('--print_freq', default=20, type=int)
     parser.add_argument('--eval_freq', default=1, type=int)
@@ -288,7 +289,7 @@ class AverageMeter(object):
 
 def adjust_learning_rate(optimizer, epoch, args):
     if epoch in args.lr_step:
-        args.learning_rate = args.learning_rate * 0.1
+        args.learning_rate = args.learning_rate * 0.2
     lr = 0.5 * (1 + math.cos(epoch * math.pi / args.epoch)) * args.learning_rate
 
     # lr = lr * 0.1 ** (epoch // lr_step)

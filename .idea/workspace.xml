@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="815ba4d6-37c9-4fa1-b8e6-5716eebac973" name="Default Changelist" comment="" />
+    <list default="true" id="815ba4d6-37c9-4fa1-b8e6-5716eebac973" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,13 +35,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="217" column="32" lean-forward="true" selection-start-line="213" selection-start-column="26" selection-end-line="213" selection-end-column="32" />
+            <state relative-caret-position="1406">
+              <caret line="74" column="44" lean-forward="true" selection-start-line="74" selection-start-column="44" selection-end-line="74" selection-end-column="44" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-114">
+              <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+                <marker date="1620456891068" expanded="true" signature="760:939" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Attention.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -54,10 +83,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>\</find>
-      <find>situp</find>
-      <find>Die_Another_Day_-_Fencing_Scene_Part_1</find>
-      <find>Die_Another_Day_-_Fencing_Scene_Part_1_HD_avi_fencing_u_cm_np2_fr_goo_2</find>
       <find>up</find>
       <find>base_model</find>
       <find>dir_video_dic</find>
@@ -73,7 +98,6 @@
       <find>segments</find>
       <find>attentionloss</find>
       <find>test_model</find>
-      <find>train_model</find>
       <find>Attention</find>
       <find>attention</find>
       <find>attention_type</find>
@@ -82,8 +106,13 @@
       <find>hyperparams</find>
       <find>hidden_dim</find>
       <find>Spatial_TemporalNet</find>
-      <find>Recurrent_model</find>
       <find>Conv2d</find>
+      <find>SpatialAttention</find>
+      <find>output_temporal</find>
+      <find>Recurrent_model</find>
+      <find>reason_average</find>
+      <find>train_model</find>
+      <find>Attention_average</find>
     </findStrings>
     <replaceStrings>
       <replace>/</replace>
@@ -126,11 +155,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="99" />
-    <option name="y" value="201" />
-    <option name="width" value="1444" />
-    <option name="height" value="979" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="383" />
+    <option name="y" value="151" />
+    <option name="width" value="1535" />
+    <option name="height" value="1030" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -324,7 +353,8 @@
       <workItem from="1619363904698" duration="2531000" />
       <workItem from="1619403625954" duration="16752000" />
       <workItem from="1619443508953" duration="277000" />
-      <workItem from="1619443856289" duration="1840000" />
+      <workItem from="1619443856289" duration="2493000" />
+      <workItem from="1620440906809" duration="2611000" />
     </task>
     <servers />
   </component>
@@ -361,13 +391,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79196000" />
+    <option name="totallyTimeSpent" value="82460000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
+    <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21801706" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22050716" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -549,36 +579,33 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../YOLO-Environment/Lib/site-packages/torch/nn/modules/conv.py" />
-    <entry file="file://$PROJECT_DIR$/Attention.py">
+    <entry file="file://$PROJECT_DIR$/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="72" column="69" selection-start-line="72" selection-start-column="69" selection-end-line="72" selection-end-column="69" />
+        <state relative-caret-position="1406">
+          <caret line="74" column="44" lean-forward="true" selection-start-line="74" selection-start-column="44" selection-end-line="74" selection-end-column="44" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
-            <element signature="e#144#574#0" />
-            <element signature="e#614#1387#0" />
-            <element signature="e#1429#2462#0" />
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-341">
-          <caret line="110" column="32" lean-forward="true" selection-start-line="110" selection-start-column="32" selection-end-line="110" selection-end-column="32" />
+        <state relative-caret-position="-114">
+          <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
-            <marker date="1619442860734" expanded="true" signature="778:957" ph="..." />
+            <marker date="1620456891068" expanded="true" signature="760:939" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main.py">
+    <entry file="file://$PROJECT_DIR$/Attention.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="217" column="32" lean-forward="true" selection-start-line="213" selection-start-column="26" selection-end-line="213" selection-end-column="32" />
+        <state relative-caret-position="361">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
