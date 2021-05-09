@@ -3,7 +3,7 @@ from torch.autograd import Variable
 import torch
 import torchvision.models as models
 # import torch.nn.functional as F
-from sru import SRU,SRUCell
+# from sru import SRU,SRUCell
 import Attention
 
 
@@ -14,14 +14,14 @@ class Recurrent_model(nn.Module):
         self.num_segments = num_segments
         self.num_class = num_class
 
-        self.rnn = SRU(img_dim, hidden_size,
-                       num_layers = 3,
-                       dropout = 0.5,
-                       bidirectional = False,
-                       layer_norm=False,
-                       highway_bias=0,
-                       rescale=True
-        )
+        # self.rnn = SRU(img_dim, hidden_size,
+        #                num_layers = 3,
+        #                dropout = 0.5,
+        #                bidirectional = False,
+        #                layer_norm=False,
+        #                highway_bias=0,
+        #                rescale=True
+        # )
 
 
         # self.rnn = nn.LSTM(img_dim, hidden_size,
@@ -29,10 +29,10 @@ class Recurrent_model(nn.Module):
         #                dropout = 0.5,
         #                bidirectional = False)
 
-        # self.rnn = nn.GRU(img_dim, hidden_size,
-        #                num_layers = 3,
-        #                dropout = 0.5,
-        #                bidirectional = False)
+        self.rnn = nn.GRU(img_dim, hidden_size,
+                       num_layers = 3,
+                       dropout = 0.5,
+                       bidirectional = False)
 
         self.dropout = nn.Dropout()
         self.fc = nn.Linear(hidden_size, self.num_class)
@@ -192,14 +192,16 @@ class Spatial_Net(nn.Module):
         # 后添加的
         self.ca = ChannelAttention(512)
         self.sa = SpatialAttention()
+        self.co = CoordAtt(512,512)
         # 到这
 
 
     def forward(self, frame):
         output = self.net(frame)
         # 后面加的
-        output = self.ca(output) * output
-        output = self.sa(output) * output
+        # output = self.ca(output) * output
+        # output = self.sa(output) * output
+        output = self.co(output) * output
         # 到这
         return output
 
@@ -229,8 +231,8 @@ if __name__ == '__main__':
 
     faka_data = Variable(torch.randn(2, 12, 3, 224, 224)).cuda().view(-1, 3, 224, 224)
     net = Spatial_TemporalNet().cuda()
-    net = torch.nn.DataParallel(net)
-    net.load_state_dict(torch.load('./model/model.pkl'))
+    # net = torch.nn.DataParallel(net)
+    # net.load_state_dict(torch.load('./model/model.pkl'))
 
     output = net(faka_data)
     print(len(output))

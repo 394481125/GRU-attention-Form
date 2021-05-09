@@ -36,9 +36,9 @@ def get_args_parser():
     # ============================ Learning Configs =============test_loader===============
     parser.add_argument('--batch_size', default=32, type=int)
     parser.add_argument('--workers', default=5, type=int)
-    parser.add_argument('--learning_rate', default=0.1, type=float)
+    parser.add_argument('--learning_rate', default=0.01, type=float)
     parser.add_argument('--weight_decay', default=1e-5, type=str)
-    parser.add_argument('--epoch', default=10, type=int)
+    parser.add_argument('--epoch', default=20, type=int)
     parser.add_argument('--lr_step', default=[30, 40], type=list)
     parser.add_argument('--print_freq', default=20, type=int)
     parser.add_argument('--eval_freq', default=1, type=int)
@@ -180,6 +180,9 @@ def train_model(train_loader, net, criterion, optimizer, epoch, attentionloss):
 
         # 计算综合损失函数
         loss = criterion(output, target) + attentionloss(output_average, output_auto, target) + attentionloss(output_average, output_learned, target)
+        print (criterion(output, target))
+        print (attentionloss(output_average, output_auto, target))
+        print (attentionloss(output_average, output_learned, target))
 
         prec1, prec5 = compute_accuracy(output.data, target.data, topk=(1, 5))
         top1.update(prec1, input.size(0))
@@ -201,7 +204,7 @@ def train_model(train_loader, net, criterion, optimizer, epoch, attentionloss):
             output = ('Now Time {0}  Epoch:{1} || Step:{2}'
                       ' || Loss:{loss.avg:.4f}'
                       ' || Time:{batch_time.avg:.3f}'.format(NowTime, epoch, step + 1, loss=losses, batch_time=batch_time))
-            print (output)
+            print(output)
 
     accuracy = ('Epoch:{0} || Prec@1: {top1.avg:.3f} || Prec@5: {top5.avg:.3f}').format(epoch + 1, top1=top1, top5=top5)
     print (accuracy)
@@ -292,7 +295,8 @@ def adjust_learning_rate(optimizer, epoch, args):
         args.learning_rate = args.learning_rate * 0.2
     lr = 0.5 * (1 + math.cos(epoch * math.pi / args.epoch)) * args.learning_rate
 
-    # lr = lr * 0.1 ** (epoch // lr_step)
+    # lr = args.learning_rate * (0.2 ** epoch)
+
     print ('the learning rate is changed to {0}'.format(lr))
     for param_group in optimizer.param_groups:
         param_group['lr'] = lr
