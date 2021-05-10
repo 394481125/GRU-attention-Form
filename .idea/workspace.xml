@@ -37,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="182" column="149" selection-start-line="182" selection-start-column="149" selection-end-line="182" selection-end-column="149" />
+            <state relative-caret-position="323">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -142,8 +142,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="176" />
-    <option name="y" value="67" />
+    <option name="x" value="178" />
+    <option name="y" value="44" />
     <option name="width" value="1511" />
     <option name="height" value="996" />
   </component>
@@ -342,7 +342,7 @@
       <workItem from="1619443856289" duration="2493000" />
       <workItem from="1620440906809" duration="10220000" />
       <workItem from="1620627427696" duration="1816000" />
-      <workItem from="1620629984402" duration="959000" />
+      <workItem from="1620629984402" duration="2963000" />
     </task>
     <servers />
   </component>
@@ -379,10 +379,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92844000" />
+    <option name="totallyTimeSpent" value="94848000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="176" y="67" width="1511" height="996" extended-state="0" />
+    <frame x="178" y="44" width="1511" height="996" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28256375" />
@@ -437,13 +437,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/os.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="197" column="29" selection-start-line="197" selection-start-column="19" selection-end-line="197" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HMDB/video_utils.py" />
     <entry file="file://C:/Windows/System32/video_utils.py" />
     <entry file="file://D:/PC_MyDeskTop/new.param">
@@ -586,10 +579,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/PC_MyDeskTop/Deep_Learning_Data_Augmentation.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="182" column="149" selection-start-line="182" selection-start-column="149" selection-end-line="182" selection-end-column="149" />
+        <state relative-caret-position="323">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>

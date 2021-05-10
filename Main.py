@@ -35,7 +35,7 @@ def get_args_parser():
     parser.add_argument('--cross', default='True', type=str)
 
     # ============================ Learning Configs =============test_loader===============
-    parser.add_argument('--batch_size', default=32, type=int)
+    parser.add_argument('--batch_size', default=48, type=int)
     parser.add_argument('--workers', default=5, type=int)
     parser.add_argument('--learning_rate', default=0.01, type=float)
     parser.add_argument('--weight_decay', default=1e-5, type=str)
