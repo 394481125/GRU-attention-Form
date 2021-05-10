@@ -16,7 +16,7 @@ class Recurrent_model(nn.Module):
 
         self.rnn = SRU(img_dim, hidden_size,
                        num_layers = 3,
-                       dropout = 0.8,
+                       dropout = 0.5,
                        bidirectional = False,
                        layer_norm=False,
                        highway_bias=0,
@@ -26,12 +26,12 @@ class Recurrent_model(nn.Module):
 
         # self.rnn = nn.LSTM(img_dim, hidden_size,
         #                num_layers = 3,
-        #                dropout = 0.8,
+        #                dropout = 0.5,
         #                bidirectional = False)
 
         # self.rnn = nn.GRU(img_dim, hidden_size,
         #                num_layers = 3,
-        #                dropout = 0.8,
+        #                dropout = 0.5,
         #                bidirectional = False)
 
         self.dropout = nn.Dropout()
