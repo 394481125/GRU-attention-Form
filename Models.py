@@ -14,25 +14,25 @@ class Recurrent_model(nn.Module):
         self.num_segments = num_segments
         self.num_class = num_class
 
-        # self.rnn = SRU(img_dim, hidden_size,
-        #                num_layers = 3,
-        #                dropout = 0.5,
-        #                bidirectional = False,
-        #                layer_norm=False,
-        #                highway_bias=0,
-        #                rescale=True
-        # )
+        self.rnn = SRU(img_dim, hidden_size,
+                       num_layers = 3,
+                       dropout = 0.8,
+                       bidirectional = False,
+                       layer_norm=False,
+                       highway_bias=0,
+                       rescale=True
+        )
 
 
         # self.rnn = nn.LSTM(img_dim, hidden_size,
         #                num_layers = 3,
-        #                dropout = 0.5,
+        #                dropout = 0.8,
         #                bidirectional = False)
 
-        self.rnn = nn.GRU(img_dim, hidden_size,
-                       num_layers = 3,
-                       dropout = 0.5,
-                       bidirectional = False)
+        # self.rnn = nn.GRU(img_dim, hidden_size,
+        #                num_layers = 3,
+        #                dropout = 0.8,
+        #                bidirectional = False)
 
         self.dropout = nn.Dropout()
         self.fc = nn.Linear(hidden_size, self.num_class)

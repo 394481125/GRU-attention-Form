@@ -18,44 +18,6 @@ import argparse
 
 # 时空连续性
 
-# 训练集顺序打乱
-def Shuffle(self, x, y, random=None, int=int):
-    """x, random=random.random -> shuffle list x in place; return None.
-
-    Optional arg random is a 0-argument function returning a random
-    float in [0.0, 1.0); by default, the standard random.random.
-    """
-
-    if random is None:
-        random = self.random  # random=random.random
-    # 转成numpy
-    if torch.is_tensor(x) == True:
-        if self.use_cuda == True:
-            x = x.cpu().numpy()
-        else:
-            x = x.numpy()
-    if torch.is_tensor(y) == True:
-        if self.use_cuda == True:
-            y = y.cpu().numpy()
-        else:
-            y = y.numpy()
-    # 开始随机置换
-    for i in range(len(x)):
-        j = int(random() * (i + 1))
-        if j <= len(x) - 1:  # 交换
-            x[i], x[j] = x[j], x[i]
-            y[i], y[j] = y[j], y[i]
-
-    # 转回tensor
-    if self.use_cuda == True:
-        x = torch.from_numpy(x).cuda()
-        y = torch.from_numpy(y).cuda()
-
-    else:
-        x = torch.from_numpy(x)
-        y = torch.from_numpy(y)
-    return x, y
-
 
 def get_args_parser():
     parser = argparse.ArgumentParser('Global and Local Knowledge-Aware Attention Network for Action Recognition')

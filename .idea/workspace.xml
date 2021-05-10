@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="815ba4d6-37c9-4fa1-b8e6-5716eebac973" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,11 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+            <state relative-caret-position="264">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -47,15 +47,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="221" column="81" selection-start-line="221" selection-start-column="81" selection-end-line="221" selection-end-column="81" />
+            <state relative-caret-position="399">
+              <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
                 <element signature="e#1457#3846#0" />
-                <marker date="1620530986089" expanded="true" signature="778:957" ph="..." />
+                <element signature="e#3895#4519#0" />
+                <element signature="e#4568#5034#0" />
+                <element signature="e#5078#5262#0" />
+                <element signature="e#5294#5479#0" />
+                <element signature="e#5520#6555#0" />
+                <marker date="1620629638878" expanded="true" signature="762:941" ph="..." />
               </folding>
             </state>
           </provider>
@@ -72,8 +77,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>base_model</find>
-      <find>dir_video_dic</find>
       <find>val_txt</find>
       <find>path_string = real_file_path + ' ' + str(real_file_sum) + ' ' + str(real_file_label)</find>
       <find>brush_hair</find>
@@ -102,6 +105,8 @@
       <find>Attention_average</find>
       <find>train_model</find>
       <find>print</find>
+      <find>train_loader</find>
+      <find>gpu</find>
     </findStrings>
     <replaceStrings>
       <replace>/</replace>
@@ -139,16 +144,16 @@
         <option value="$PROJECT_DIR$/Attention.py" />
         <option value="$PROJECT_DIR$/list/hmdb_split1_train.txt" />
         <option value="$PROJECT_DIR$/list/hmdb_split1_test.txt" />
-        <option value="$PROJECT_DIR$/Models.py" />
         <option value="$PROJECT_DIR$/Main.py" />
+        <option value="$PROJECT_DIR$/Models.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="411" />
-    <option name="y" value="53" />
-    <option name="width" value="1444" />
-    <option name="height" value="979" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="192" />
+    <option name="y" value="49" />
+    <option name="width" value="1511" />
+    <option name="height" value="996" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -344,7 +349,7 @@
       <workItem from="1619443508953" duration="277000" />
       <workItem from="1619443856289" duration="2493000" />
       <workItem from="1620440906809" duration="10220000" />
-      <workItem from="1620627427696" duration="191000" />
+      <workItem from="1620627427696" duration="1816000" />
     </task>
     <servers />
   </component>
@@ -381,13 +386,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90260000" />
+    <option name="totallyTimeSpent" value="91885000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="411" y="53" width="1444" height="979" extended-state="0" />
+    <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2933526" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22381477" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -401,7 +406,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3170478" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.18607068" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="ExcelReader" order="13" weight="0.32900944" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -516,23 +521,6 @@
     <entry file="file://$PROJECT_DIR$/utils/video_utils.py" />
     <entry file="file://$PROJECT_DIR$/Test.py" />
     <entry file="file://$PROJECT_DIR$/Main_old.py" />
-    <entry file="file://$PROJECT_DIR$/Dataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="87" column="21" lean-forward="true" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-            <element signature="e#123#354#0" />
-            <element signature="e#388#596#0" />
-            <element signature="e#630#2167#0" />
-            <element signature="e#987#1364#0" />
-            <element signature="e#1397#1530#0" />
-            <element signature="e#1712#1990#0" />
-            <element signature="e#1881#2167#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../YOLO-Environment/Lib/site-packages/torch/nn/modules/module.py" />
     <entry file="file://$PROJECT_DIR$/../YOLO-Environment/Lib/site-packages/torchvision/models/__init__.py" />
     <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-1883897891/builtins.py">
@@ -582,24 +570,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Models.py">
+    <entry file="file://$PROJECT_DIR$/Dataset.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="221" column="81" selection-start-line="221" selection-start-column="81" selection-end-line="221" selection-end-column="81" />
+        <state relative-caret-position="386">
+          <caret line="54" column="13" lean-forward="true" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
-            <element signature="e#1457#3846#0" />
-            <marker date="1620530986089" expanded="true" signature="778:957" ph="..." />
+            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#1526#1727#0" />
+            <element signature="e#1763#2196#0" />
+            <element signature="e#2260#2546#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+        <state relative-caret-position="264">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#1457#3846#0" />
+            <element signature="e#3895#4519#0" />
+            <element signature="e#4568#5034#0" />
+            <element signature="e#5078#5262#0" />
+            <element signature="e#5294#5479#0" />
+            <element signature="e#5520#6555#0" />
+            <marker date="1620629638878" expanded="true" signature="762:941" ph="..." />
           </folding>
         </state>
       </provider>
