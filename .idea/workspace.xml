@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="815ba4d6-37c9-4fa1-b8e6-5716eebac973" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,10 +38,24 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="628">
-              <caret line="182" column="13" selection-start-line="182" selection-start-column="8" selection-end-line="182" selection-end-column="13" />
+            <state relative-caret-position="263">
+              <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="558">
+              <caret line="221" column="81" selection-start-line="221" selection-start-column="81" selection-end-line="221" selection-end-column="81" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#1457#3846#0" />
+                <marker date="1620530986089" expanded="true" signature="778:957" ph="..." />
               </folding>
             </state>
           </provider>
@@ -124,8 +139,8 @@
         <option value="$PROJECT_DIR$/Attention.py" />
         <option value="$PROJECT_DIR$/list/hmdb_split1_train.txt" />
         <option value="$PROJECT_DIR$/list/hmdb_split1_test.txt" />
-        <option value="$PROJECT_DIR$/Main.py" />
         <option value="$PROJECT_DIR$/Models.py" />
+        <option value="$PROJECT_DIR$/Main.py" />
       </list>
     </option>
   </component>
@@ -140,7 +155,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -152,6 +166,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -329,6 +344,7 @@
       <workItem from="1619443508953" duration="277000" />
       <workItem from="1619443856289" duration="2493000" />
       <workItem from="1620440906809" duration="10220000" />
+      <workItem from="1620627427696" duration="191000" />
     </task>
     <servers />
   </component>
@@ -365,13 +381,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90069000" />
+    <option name="totallyTimeSpent" value="90260000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="411" y="53" width="1444" height="979" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28901735" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2933526" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -568,8 +584,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="237" column="22" lean-forward="true" selection-start-line="237" selection-start-column="22" selection-end-line="237" selection-end-column="22" />
+        <state relative-caret-position="558">
+          <caret line="221" column="81" selection-start-line="221" selection-start-column="81" selection-end-line="221" selection-end-column="81" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
             <element signature="e#1457#3846#0" />
@@ -580,8 +596,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="182" column="13" selection-start-line="182" selection-start-column="8" selection-end-line="182" selection-end-column="13" />
+        <state relative-caret-position="263">
+          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
