@@ -181,9 +181,6 @@ def train_model(train_loader, net, criterion, optimizer, epoch, attentionloss):
 
         # 计算综合损失函数
         loss = criterion(output, target) + attentionloss(output_average, output_auto, target) + attentionloss(output_average, output_learned, target)
-        print (criterion(output, target))
-        print (attentionloss(output_average, output_auto, target))
-        print (attentionloss(output_average, output_learned, target))
 
         prec1, prec5 = compute_accuracy(output.data, target.data, topk=(1, 5))
         top1.update(prec1, input.size(0))
