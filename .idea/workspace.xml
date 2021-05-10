@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="815ba4d6-37c9-4fa1-b8e6-5716eebac973" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="361">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -50,18 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-                <element signature="e#1457#3846#0" />
-                <element signature="e#3895#4519#0" />
-                <element signature="e#4568#5034#0" />
-                <element signature="e#5078#5262#0" />
-                <element signature="e#5294#5479#0" />
-                <element signature="e#5520#6555#0" />
-                <marker date="1620629638878" expanded="true" signature="762:941" ph="..." />
-              </folding>
+            <state relative-caret-position="38">
+              <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -149,9 +138,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="192" />
-    <option name="y" value="49" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="176" />
+    <option name="y" value="67" />
     <option name="width" value="1511" />
     <option name="height" value="996" />
   </component>
@@ -350,6 +339,7 @@
       <workItem from="1619443856289" duration="2493000" />
       <workItem from="1620440906809" duration="10220000" />
       <workItem from="1620627427696" duration="1816000" />
+      <workItem from="1620629984402" duration="8000" />
     </task>
     <servers />
   </component>
@@ -386,13 +376,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91885000" />
+    <option name="totallyTimeSpent" value="91893000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
+    <frame x="176" y="67" width="1511" height="996" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22381477" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28256375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -406,7 +396,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.18607068" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2076566" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="ExcelReader" order="13" weight="0.32900944" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -585,8 +575,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="361">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
@@ -595,18 +585,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-            <element signature="e#1457#3846#0" />
-            <element signature="e#3895#4519#0" />
-            <element signature="e#4568#5034#0" />
-            <element signature="e#5078#5262#0" />
-            <element signature="e#5294#5479#0" />
-            <element signature="e#5520#6555#0" />
-            <marker date="1620629638878" expanded="true" signature="762:941" ph="..." />
-          </folding>
+        <state relative-caret-position="38">
+          <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="27" />
         </state>
       </provider>
     </entry>

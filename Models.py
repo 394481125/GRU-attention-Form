@@ -2,8 +2,8 @@ import torch.nn as nn
 from torch.autograd import Variable
 import torch
 import torchvision.models as models
-# import torch.nn.functional as F
-# from sru import SRU,SRUCell
+import torch.nn.functional as F
+from sru import SRU,SRUCell
 import Attention
 
 
